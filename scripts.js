@@ -33,5 +33,5 @@ window.addEventListener('DOMContentLoaded', () => {
         document.querySelectorAll("button.yes, button.no").forEach(btn => {
             btn.classList.remove("hidden");
         });
-    }, 1600);
+    }, 500);
 });
